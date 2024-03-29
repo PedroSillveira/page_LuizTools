@@ -3,4 +3,4 @@
 criação de uma landing page simples para praticar habilidades em bootstrap
 
 ## Acompanhe o desenvolvimento: 
-clique <a href="https://luiz-tools-designgrafico-ll.netlify.app/">
+[Clique aqui](https://luiz-tools-designgrafico-ll.netlify.app/)
