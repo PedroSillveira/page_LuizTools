@@ -1,5 +1,5 @@
 .containerDegrade {
-    padding-bottom: 128px;
+    padding-bottom: 20px;
     background-color: #09040f;
     background-image: linear-gradient(360deg, #09040f, rgba(0, 0, 0, .5)), 
     linear-gradient(140deg, #ee0c0c, #ff9659 22%, #d73802 38%, #2b2b2b 57%, #011c34 75%, #000);
@@ -40,9 +40,9 @@
     -ms-transform: translate(0, -2px);
     transform: translate(0, -2px);
 }
-/* BARRA VERTICAL */
-.custom-barraVertical {
-    padding: 0% 12% 0% 12%;
+/* BARRA VERTICAL nav bar */
+.barraVertical {
+    padding: 0% 7% 0% 9%;
 }
 /* CORES PADRAO */
 .custom-primary {
@@ -62,8 +62,8 @@
     font-weight: 700;
 }
 .custom-terciry {
-    margin-top: 12px;
-    margin-bottom: 16px;
+    /* margin-top: 12px;
+    margin-bottom: 16px; */
     font-family: work sans, sans-serif;
     color: #fff;
     font-size: 20px;
@@ -74,27 +74,22 @@
 .custom-whiteh1 {
     margin-top: 0;
     margin-bottom: 16px;
-    font-family: work sans, sans-serif;
+    font-family: 'Termina Test', sans-serif;
     color: #fff;
-    font-size: 64px;
+    font-size: 58px;
     line-height: 120%;
-    font-weight: 700;
-    display: block;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
+    font-weight: 600;
+    
 }
 /* TITULOS H2 */
 .custom-whiteh2 {
     margin-top: 0;
     margin-bottom: 8px;
-    font-family: work sans, sans-serif;
+    font-family: 'Termina Test', sans-serif;
     color: #fff;
-    font-size: 40px;
+    font-size: 38px;
     line-height: 120%;
-    font-weight: 700;
+    font-weight: 600;
 }
 /* SUBTITULOS LARANJA */
 .custom-orangeSubtitle {
@@ -102,7 +97,7 @@
     margin-bottom: 16px;
     font-family: work sans, sans-serif;
     color: #ff9659;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 150%;
     font-weight: 500;
 }
@@ -121,8 +116,10 @@
 }
 /* espaço video um */
 .margin-videoUm {
-    padding-top: 200px; 
+    display: flex;
+    align-items: end; 
 }
+
 .margin-rowUm {
     margin-bottom: 96px;
 }
@@ -132,7 +129,6 @@
 }
 .margin-rowDois{
     padding-top: 96px;
-    padding-bottom: 40px;
 }
 /* CARDS PEQUENOS 12/3 */
 .custom-cardSmall {
@@ -140,9 +136,10 @@
     border: 1px solid #28263a;
     border-radius: 8px;
     background-color: #181628;
-    margin: 0 10px 10px 0;
+    margin: 0 10px 10px 0px;
     width: 370px;
     height: 282px;
+    
 }
 /* CARD MEDIO */
 .custom-cardMedio {
@@ -150,7 +147,6 @@
     border: 1px solid #28263a;
     border-radius: 8px;
     background-color: #181628;
-    margin: 0 0 15px 15px;
     width: 564px;
     height: 345px;
 }
@@ -159,7 +155,7 @@
     border: 1px solid #28263a;
     border-radius: 8px;
     background-color: #181628;
-    width: 564px;
+    width: 560px;
     height: 1785px;
 }
 .top-image {

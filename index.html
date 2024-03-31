@@ -9,6 +9,10 @@
     <link rel="shortcut icon" href="/assets/logo-L.png" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+    <!-- font Termina -->
+    <link href="https://fonts.cdnfonts.com/css/termina-test" rel="stylesheet">
+                
+
     <!-- Font Work Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,13 +25,14 @@
 
 </head>
 <body class="">
-        <div class="containerDegrade custom-barraVertical">
-            <nav class="navbar navbar-expand-lg">
+        <div class="containerDegrade">
+            <nav class="navbar navbar-expand-lg barraVertical margin-rowUm">
                 <div class="container-fluid nav-size">
+                    <!--LOGO LUIZ TOOLS-->
                     <a class="navbar-brand" href="#">
                         <img src="/assets/logo-luiztools.jpg" alt="logo luiz tools" style="width: 160px;">
                     </a>
-                    <!--LOGO LUIZ TOOLS-->
+                    <!-- ARRUMAR SOBREPOSIÇÃO DE CONTEUDO -->
                     <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" 
                         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" 
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +61,7 @@
                 <div class="row">
                     <div class="col-md-6 margin-rows">
                         <h1 class="custom-whiteh1">
-                            Curso Node.js <br> e MongoDB
+                            Curso Node.js e MongoDB
                         </h1>
                         <p class="custom-orangeSubtitle">
                             Aprenda a desenvolver suas primeiras aplicações web e web 
@@ -88,9 +93,9 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row margin-rowDois">
-                    <div class="col-12">
+            <div class="container d-flex justify-content-stard align-items-center margin-rowDois">
+                <div class="row">
+                    <div class="col-md-12">
                         <p class="custom-orangeTitle">TORNE-SE UM DESENVOLVEDOR DE APLICAÇÕES</p>
                         <h2 class="custom-whiteh2">
                             Node.js e MongoDB
@@ -103,20 +108,20 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="fundo custom-barraVertical"> 
+         </div>
+        <div class="fundo"> 
             <div class="container">
-                <div class="row">
-                    <div class="col-4 custom-cardSmall">
+                <div class="row justify-content-center align-items-center  ">
+                    <div class="col-sm-4 custom-cardSmall">
                         <div class="circle">
                             <img src="/assets/icon-nodejs.png" alt="icone node js">
                         </div>
-                        <h4 class="custom-secondary">Node.js</h4>
+                        <h4 class="custom-secondary ">Node.js</h4>
                         <p class="custom-primary">
                             Uma plataforma que permite criar aplicações utilizando arquiteturas modernas e escaláveis.
                         </p>
                     </div>
-                    <div class="col-4 custom-cardSmall">
+                    <div class="col-md-4 custom-cardSmall">
                         <div class="circle">
                             <img src="/assets/icon-mongo-db.png" alt="icone MongoDB">
                         </div>
@@ -125,7 +130,7 @@
                             Simplesmente o banco de dados mais prático para você aprender a construir aplicações reais com Node.js.
                         </p>
                     </div>
-                    <div class="col-4 custom-cardSmall">
+                    <div class="col-md-4 custom-cardSmall">
                         <div class="circle">
                             <img src="/assets/expressjs-logo.png" alt="icone ExpressJS">
                         </div>
@@ -136,7 +141,7 @@
                     </div>
                 </div>
                 <!-- DIVISÃO -->
-                <div class="row margin-rowUm">
+                <div class="row justify-content-center margin-rowUm ">
                     <div class="col-4 custom-cardSmall">
                         <div class="circle">
                             <img src="/assets/microservices-logo.png" alt="icone microserviços">
@@ -167,7 +172,7 @@
                 </div>
             </div>
             <div class="container">
-                <div class="row margin-rowPD">
+                <div class="row align-items-center margin-rowPD ">
                     <div class="col-md-6">
                         <p class="custom-orangeTitle">AULAS E SUPORTE COM ESPECIALISTA</p>
                         <h2 class="custom-whiteh2">
@@ -190,6 +195,7 @@
                             </p>
                         </div>
                     </div>
+                    
                     <div class="col-md-6"">
                         <img class="img-fluid" style="width: 100%;" src="/assets/aula-node-exemplo.jpg" 
                         style="width: 564px; height: 353px;" alt="exemplo de aula node">
@@ -197,12 +203,12 @@
                 </div>
             </div>
             <div class="container">
-                <div class="row margin-rowPD">
+                <div class="row align-items-center margin-rowPD">
                     <div class="col-md-6">
-                        <img class="img-fluid" style="width: 100%; margin-bottom: 34px;" src="/assets/plataforma-node-emeplo.jpg" 
+                        <img class="img-fluid mb-4 mb-md-0" style="width: 100%; margin-bottom: 34px;" src="/assets/plataforma-node-emeplo.jpg" 
                         style="width: 564px; height: 303px;" alt="exemplo plataforma nodeJS" p->
                     </div>
-                    <div class="col-md-6" p-2>
+                    <div class="col-md-6">
                         <p class="custom-orangeTitle">PLATAFORMA COMPLETA</p>
                         <h2 class="custom-whiteh2">
                             Estude no seu Ritmo
@@ -211,13 +217,13 @@
                             Todas aulas são gravadas e hospedadas em plataforma própria para que possa 
                             assistir quando e quantas vezes quiserem, além de muitos materiais extras.
                         </p>
-                        <div class="verficado">
+                        <div class="verificado">
                             <p class="custom-orangeSubtitle">
                                 <img src="/assets/icone-verificacao.png" alt="icone verificação" style="height: 20px;">
                                 Vídeos e artigos complementares às aulas, para se aprofundar nos conceitos.
                             </p>
                         </div>
-                        <div class="verficado">
+                        <div class="verificado">
                             <p class="custom-orangeSubtitle">
                                 <img src="/assets/icone-verificacao.png" alt="icone verificação" style="height: 20px;">
                                 Grupo de Telegram com o professor e colegas, para suporte, vagas e troca de experiências.
@@ -243,9 +249,9 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 custom-cardBig">
+                    <div class="col-md-6 custom-cardBig align-items-center justify-content-center">
                         <!-- IMAGEM TOPO -->
-                        <img src="/assets/print01.png" class="top-image img-fluid"  alt="print explicativo">
+                        <img src="/assets/print01.png" class="img-fluid"  alt="print explicativo">
                         <div style="margin: 48px;">
                             <p class="custom-orangeTitle">O QUE VOCÊ VAI APRENDER</p>
                             <p class="custom-terciry">
@@ -366,10 +372,10 @@
             </div>
             <div class="container">
                 <div class="row margin-rowPD">
-                    <div class="col-6">
-                        <img src="/assets/fullstackiniciantes.jpg" style="width: 564px;" alt="Fullstack para Iniciantes">
+                    <div class="col-md-6">
+                        <img src="/assets/fullstackiniciantes.jpg" class="img-fluid" style="width: 564px;" alt="Fullstack para Iniciantes">
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <p class="custom-orangeTitle">FULLSTACK</p>
                         <h2 class="custom-whiteh2">
                             BONUS #1
@@ -381,10 +387,10 @@
                     </div>
                 </div>
                 <div class="row margin-rowPD">
-                    <div class="col-6">
-                        <img src="/assets/scrum-para-iniciantes.png" style="width: 564px;" alt="Fullstack para Iniciantes">
+                    <div class="col-lg-6">
+                        <img src="/assets/scrum-para-iniciantes.png" class="img-fluid" style="width: 564px;" alt="Fullstack para Iniciantes">
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6">
                         <p class="custom-orangeTitle">AGILIDADE</p>
                         <h2 class="custom-whiteh2">
                             BONUS #2
@@ -398,10 +404,10 @@
             </div>
             <div class="container">
                 <div class="row margin-rowPD">
-                    <div class="col-6">
-                        <img src="/assets/lUIZ-PROFILE.jpeg" style="width: 483px; height: 684px;" alt="foto de perfil">
+                    <div class="col-md-6 justify-content-center mb-4">
+                        <img src="/assets/lUIZ-PROFILE.jpeg" class="img-fluid" alt="foto de perfil">
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <p class="custom-orangeTitle">CONHEÇA O INSTRUTOR</p>
                         <h2 class="custom-whiteh2">OLÁ, SOU LUIZ DUARTE</h2>
                         <div class="icos-profile">
@@ -420,7 +426,7 @@
                 </div>
             </div>
             <div class="container">
-                <div class="row margin-rowPD">
+                <div class="row margin-rowDois mb-4">
                     <div class="col-12">
                         <h2 class="custom-whiteh2">Depoimentos</h2>
                         <p class="custom-orangeSubtitle">
@@ -428,67 +434,79 @@
                         </p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-6">
-                        <div class="videoEsquerda">
-                            <iframe style="margin: 0 10px 10px 0;"
+                <div class="row ">
+                    <div class="col-md-6">
+                        <div class="">                            
+                        <iframe 
+                                class="ratio ratio-16x9" style="margin: 0 10px 10px 0;"
                                 width="560" height="315" src="https://www.youtube.com/embed/eH-whs3qC1k?si=ApMR5U70utDB522M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="videoEsquerda">
-                            <iframe style="margin: 0 10px 10px 0;" 
+                        <div>
+                            <iframe 
+                                class="ratio ratio-16x9" style="margin: 0 10px 10px 0;" 
                                 width="560" height="315" src="https://www.youtube.com/embed/-tRR1w7H40E?si=drDmRnm5y_z9pUxF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"   referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="videoEsquerda">
-                            <iframe style="margin: 0 10px 10px 0;"
+                        <div>
+                            <iframe 
+                                class="ratio ratio-16x9" style="margin: 0 10px 10px 0;"
                                 width="560" height="315" src="https://www.youtube.com/embed/BhrHr-iFZLY?si=VfHKYRBRYzuxlKXT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="videoEsquerda">
-                            <iframe style="margin: 0 10px 10px 0;"
+                        <div>
+                            <iframe
+                                class="ratio ratio-16x9" style="margin: 0 10px 10px 0;"
                                 width="560" height="315" src="https://www.youtube.com/embed/DgIP0Sjqrco?si=8CNt_QSa9AAP6eq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="videoEsquerda">
-                            <iframe style="margin: 0 10px 10px 0;"
+                        <div>
+                            <iframe 
+                                class="ratio ratio-16x9" style="margin: 0 10px 10px 0;"
                                 width="560" height="315" src="https://www.youtube.com/embed/IINGc2gd6n0?si=MdhgCNoTTfxob2YT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="videoEsquerda">
-                            <iframe style="margin: 0 10px 10px 0;"
+                        <div>
+                            <iframe 
+                                class="ratio ratio-16x9"style="margin: 0 10px 10px 0;"
                                 width="560" height="315" src="https://www.youtube.com/embed/QKpmvJPz9fA?si=qTu9RN08fyb3vXl2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                             </iframe>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="videoDireita">
-                            <iframe style="margin: 0 10px 10px 0;"
+                    <div class="col-md-6">
+                        <div>
+                            <iframe 
+                                class="ratio ratio-16x9" style="margin: 0 10px 10px 0;" 
                                 width="560" height="315" src="https://www.youtube.com/embed/N4XvcwHW1LQ?si=LLhEe_G991CgHqLa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="videoDireita">
-                            <iframe style="margin: 0 10px 10px 0;" 
+                        <div>
+                            <iframe 
+                                class="ratio ratio-16x9" style="margin: 0 10px 10px 0;" 
                                 width="560" height="315" src="https://www.youtube.com/embed/77JwHo2Nr6I?si=oEsot9UXTayjM-7A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="videoDireita">
-                            <iframe style="margin: 0 10px 10px 0;" 
+                        <div>
+                            <iframe
+                                class="ratio ratio-16x9" style="margin: 0 10px 10px 0;"
                                 width="560" height="315" src="https://www.youtube.com/embed/uqG2al9JWvo?si=6zPobp7-hnWvH7Du" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="videoDireita">
-                            <iframe style="margin: 0 10px 10px 0;"
+                        <div>
+                            <iframe 
+                                class="ratio ratio-16x9"style="margin: 0 10px 10px 0;"
                                 width="560" height="315" src="https://www.youtube.com/embed/NwlTXi_EXg4?si=WDE4_n066W2LRQMm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="videoDireita">
-                            <iframe style="margin: 0 10px 10px 0;" 
+                        <div>
+                            <iframe 
+                                class="ratio ratio-16x9"style="margin: 0 10px 10px 0;" 
                                 width="560" height="315" src="https://www.youtube.com/embed/qIjCjIDsbgQ?si=crxBu4G9xQQwmeOD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                             </iframe>
                         </div>
-                        <div class="videoDireita">
-                            <iframe style="margin: 0 10px 10px 0;" 
+                        <div>
+                            <iframe
+                                class="ratio ratio-16x9" style="margin: 0 10px 10px 0;" 
                                 width="560" height="315" src="https://www.youtube.com/embed/qR2wlsDkcjY?si=pSmWPxyX8StAQNxL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                             </iframe>
                         </div>
@@ -496,15 +514,15 @@
                 </div>
             </div>
             <div class="container">
-                <div class="row margin-rowPD">
-                    <div class="col-6">
+                <div class="row margin-rowPD m-4">
+                    <div class="col-md-6">
                         <p class="custom-orangeTitle">ZERO RISCO</p>
                         <h2 class="custom-whiteh2">Satisfação garantida ou seu dinehiro de volta</h2>
                         <p class="custom-orangeSubtitle">
                             Acredito em meu curso, mas se você quiser desistir da sua compra, tem 7 dias para fazê-lo e devolverei o valor investido integralmente.
                         </p>
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <img src="/assets/garantia.png" alt="Selo de garantia">
                     </div>
                 </div>
