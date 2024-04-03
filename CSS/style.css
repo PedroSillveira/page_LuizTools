@@ -23,6 +23,12 @@
 .nav-size {
     height: 116px;
 }
+.navbar-collapse.collapse.show {
+    background-color: #000000;
+    border-radius: 5%;
+    opacity: 85%;
+     
+}
 /* BUTTON PRICE */
 .btn-price {
     min-width: 160px;
